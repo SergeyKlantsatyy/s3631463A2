@@ -25,6 +25,10 @@ printf "%s\nFILES%s\n%s\tcorenumber.sh%s\n%s\t%s\tView the number of CPU cores
         %s\tView the number of open file descriptors for current user
         runtime.sh
         %s\tView the amount of time the system has been running
+        findscript.sh
+        %s\tCustomised search with optional action on the object
+        profiler.sh
+        %s\tSearch and monitoring of a process and its proprties
         help.sh
         %s\tView general help information to assist user
         menu.sh
@@ -34,4 +38,4 @@ printf "%s\nFILES%s\n%s\tcorenumber.sh%s\n%s\t%s\tView the number of CPU cores
 printf "%s\nUSAGE%s\n%s\tLoad the menu file. On load read the list of available options
         carefully and choose the most relevant to view desired information.
         Scroll up if the viewed information is not fully displayed. Choose
-        the next option or exit.%s\n%s\n"
+        the desired option or exit.%s\n%s\n"
